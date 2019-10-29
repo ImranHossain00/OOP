@@ -1,0 +1,8 @@
+When we pass a value on a mathod than we need specify the value is int or float.
+Example if here 
+public void intg(int a){...}
+if we call this method by passing argument there is no problem.
+But
+public voi Dou(double a){...}
+ when parameter is double type during calling the method we have to use decimal point .
+Otherwise variable a will be integer.:)
