@@ -5,17 +5,16 @@ plugins {
 group = 'org.example'
 version = '1.0-SNAPSHOT'
 
-sourceCompatibility = 17
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.junit.jupiter:junit-jupiter:5.9.3'
-    implementation 'org.jboss.weld:weld-parent:26'
+    implementation 'org.jboss.weld.se:weld-se:2.4.8.Final'
     implementation 'ch.qos.logback:logback-classic:1.4.11'
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13.1'
 }
 
 task copyResources(type: Copy) {
@@ -25,6 +24,6 @@ task copyResources(type: Copy) {
 
 processResources.dependsOn copyResources
 
-test {
-    useJUnitPlatform()
-}
+//test {
+//    useJUnitPlatform()
+//}

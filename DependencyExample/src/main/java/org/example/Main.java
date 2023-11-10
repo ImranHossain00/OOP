@@ -1,7 +1,19 @@
 package org.example;
 
+import org.jboss.weld.environment.se.Weld;
+import org.jboss.weld.environment.se.WeldContainer;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Weld weld = new Weld();
+        WeldContainer container = weld.initialize();
+        UserService userService
+                = container.select(UserService.class).get();
+
+        userService.saveUser(
+                new User(
+                        "User1",
+                        "password")
+        );
     }
 }
