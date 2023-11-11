@@ -3,7 +3,8 @@ package org.example;
 import javax.inject.Inject;
 
 
-// This UserService class is a CDI Bean
+// This UserService class is a CDI (Context and Dependency Injection) Bean
+// which is managed by the CDI Container.
 public class UserService {
 
     @Inject
