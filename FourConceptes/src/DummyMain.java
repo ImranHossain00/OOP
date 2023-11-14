@@ -2,7 +2,7 @@
 
 
 
-public class Main {
+public class DummyMain {
     public static void main(String[] args) {
         // Here 'new' operator is used for creating a object in the Heap of the memory.
         // SmartPhone() Constructor is used for
