@@ -12,7 +12,8 @@ class Domain {
     LocalDateTime date_created;
     LocalDateTime date_last_updated;
 }
-
+// ===================================================================
+// Type #1 - Single level inheritance
 // Classes Customer and Product are inherited
 // the properties of the Domain class.
 class Customer extends Domain{
@@ -22,6 +23,7 @@ class Customer extends Domain{
     String username;
     String password;
 
+    Customer() {}
     public Customer(String fullName,
                     String username,
                     String password) {
@@ -48,6 +50,17 @@ class Customer extends Domain{
     }
 }
 
+// ===================================================================
+// Type #2 - Multi level inheritance
+class CustomerDTO extends Customer {
+    String confirmPassword;
+    String firstName;
+    String lastName;
+}
+
+// ===================================================================
+// Type #3 - Hierarchy inheritance
+// super class Domain have multiple subclasses.
 class Product extends Domain{
     static Long idCount = 1L;
     static Integer versionCount = 1;
