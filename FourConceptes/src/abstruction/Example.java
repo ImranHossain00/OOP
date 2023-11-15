@@ -1,4 +1,4 @@
-package AbstructionExample;
+package abstruction;
 
 // This is an example of Abstraction
 // The concept of Abstraction is that hiding the details code or non-important implementation

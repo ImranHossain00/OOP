@@ -1,8 +1,7 @@
-package InheritanceExample;
+package inheritance;
 
 
 import java.math.BigDecimal;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.List;
 

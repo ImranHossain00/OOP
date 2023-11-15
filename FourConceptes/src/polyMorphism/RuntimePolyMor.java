@@ -1,4 +1,4 @@
-package PolyMorphismExample;
+package polyMorphism;
 
 // This is an example method overriding.
 // Which is an example of Runtime Polymorphism.

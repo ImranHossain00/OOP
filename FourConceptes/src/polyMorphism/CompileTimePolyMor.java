@@ -1,4 +1,4 @@
-package PolyMorphismExample;
+package polyMorphism;
 
 // Example of Method Overloading.
 // Which is Compile time Polymorphism.
