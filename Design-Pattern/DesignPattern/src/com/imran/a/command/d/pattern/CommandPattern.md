@@ -1,0 +1,3 @@
+**Command Pattern:** Frees everything that is needed to accomplish a task by hiding and encapsulating it in a `class`.
+
+This pattern encapsulates the details of a task by bundling them into a `class`, providing a way to `abstract`, `parameterize`, and `decouple operations`. This pattern allows for the `encapsulation` of requests as `objects`, enabling the parameterization of clients with different requests, queuing of requests, and supporting undoable operations.
